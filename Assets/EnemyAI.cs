@@ -15,12 +15,17 @@ public class EnemyAI : MonoBehaviour
 
     Seeker seeker;
     Rigidbody2D rb;
+
+    public Animator animator;
+    public Transform enemyGFX;
     // Start is called before the first frame update
     void Start()
     {
         seeker = GetComponent<Seeker>();
         
         rb = GetComponent<Rigidbody2D>();
+
+        animator = GameObject.FindGameObjectWithTag("Wolf").GetComponent<Animator>();
 
         InvokeRepeating("UpdatePath", 0f, .5f);
     }
@@ -63,11 +68,22 @@ public class EnemyAI : MonoBehaviour
         velocity.x = force.x;
         rb.velocity = velocity;
 
+        animator.SetFloat("Speed", Mathf.Abs(force.x));
+
         float distance = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
 
         if(distance < nextWaypointDistance)
         {
             currentWaypoint++;
+        }
+
+        if (rb.velocity.x >= 0.01f)
+        {
+            enemyGFX.localScale = new Vector3(-1f, 1f, 1f);
+        }
+        else if (rb.velocity.x <= -0.01f)
+        {
+            enemyGFX.localScale = new Vector3(1f, 1f, 1f);
         }
     }
 }

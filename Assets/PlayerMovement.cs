@@ -9,12 +9,14 @@ public class PlayerMovement : MonoBehaviour
     float horizontalMove = 0f;
     bool jump = false;
     public HealthBar hb;
-    float health = 100f;
+    float maxHealth = 100f;
+
+    public Animator animator;
     // Start is called before the first frame update
     void Start()
     {
         hb = GameObject.FindGameObjectWithTag("HealthBar").GetComponent<HealthBar>();
-        hb.SetMaxHealth(health);
+        hb.SetMaxHealth(maxHealth);
     }
 
     // Update is called once per frame
@@ -22,12 +24,11 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * speed;
 
+        animator.SetFloat("speed", Mathf.Abs(horizontalMove));
+
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
-            health -= 10;
-            hb.SetHealth(health);
-            
         }
     }
 

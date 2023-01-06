@@ -18,11 +18,17 @@ public class InvertPlayer : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        controller.Invert();
+        if (collision.gameObject.tag == "Player")
+        {
+            controller.Invert();
+        }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        controller.Invert();
+        if (collision.gameObject.tag == "Player")
+        {
+            controller.Invert();
+        }
     }
 
 }
