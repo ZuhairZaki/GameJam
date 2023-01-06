@@ -7,9 +7,11 @@ public class spikecollider : MonoBehaviour
 {
     // Start is called before the first frame update
     public HealthBar hb;
+    public Animator animator;
     void Start()
     {
         hb = GameObject.FindGameObjectWithTag("HealthBar").GetComponent<HealthBar>();
+        animator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -23,7 +25,9 @@ public class spikecollider : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             hb.Die();
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            animator.SetBool("IsDead", true);
+            
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
