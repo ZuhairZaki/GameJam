@@ -4,8 +4,18 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - HealthBar
-  - Wolf
+  - ground
+  - wall
+  - portal
+  - portalController
+  - apple
+  - wallbreak_trigger
+  - flag
+  - cherry
+  - Undefined
+  - fireball
+  - Enemy
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -13,9 +23,9 @@ TagManager:
   - 
   - Water
   - UI
-  - Player
-  - 
-  - 
+  - ground
+  - wall
+  - player
   - 
   - 
   - 
@@ -40,9 +50,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
-    uniqueID: 893625145
+  - name: BackGround
+    uniqueID: 2192565257
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: World
+    uniqueID: 3705416037
+    locked: 0
+  - name: UI
+    uniqueID: 3650620535
     locked: 0

@@ -200,6 +200,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -207,10 +219,10 @@ TextureImporter:
       name: WolfRun1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 17
         y: 24
-        width: 40
-        height: 24
+        width: 30
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +240,10 @@ TextureImporter:
       name: WolfRun2
       rect:
         serializedVersion: 2
-        x: 56
+        x: 57
         y: 24
-        width: 40
-        height: 24
+        width: 34
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,10 +261,10 @@ TextureImporter:
       name: WolfRun3
       rect:
         serializedVersion: 2
-        x: 96
+        x: 97
         y: 24
-        width: 40
-        height: 24
+        width: 32
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,10 +282,10 @@ TextureImporter:
       name: WolfRun4
       rect:
         serializedVersion: 2
-        x: 136
+        x: 137
         y: 24
-        width: 40
-        height: 24
+        width: 32
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +303,10 @@ TextureImporter:
       name: WolfRun5
       rect:
         serializedVersion: 2
-        x: 176
+        x: 177
         y: 24
-        width: 40
-        height: 24
+        width: 32
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,10 +324,10 @@ TextureImporter:
       name: WolfRun6
       rect:
         serializedVersion: 2
-        x: 216
+        x: 217
         y: 24
-        width: 40
-        height: 24
+        width: 32
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,8 +347,8 @@ TextureImporter:
         serializedVersion: 2
         x: 16
         y: 48
-        width: 40
-        height: 24
+        width: 30
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,8 +368,8 @@ TextureImporter:
         serializedVersion: 2
         x: 56
         y: 48
-        width: 40
-        height: 24
+        width: 29
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -375,10 +387,10 @@ TextureImporter:
       name: WolfAttack3
       rect:
         serializedVersion: 2
-        x: 96
+        x: 97
         y: 48
-        width: 40
-        height: 24
+        width: 29
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -396,10 +408,10 @@ TextureImporter:
       name: WolfAttack4
       rect:
         serializedVersion: 2
-        x: 136
+        x: 138
         y: 48
-        width: 40
-        height: 24
+        width: 29
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -417,10 +429,10 @@ TextureImporter:
       name: WolfAttack5
       rect:
         serializedVersion: 2
-        x: 176
+        x: 179
         y: 48
-        width: 40
-        height: 24
+        width: 37
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -438,10 +450,10 @@ TextureImporter:
       name: WolfAttack6
       rect:
         serializedVersion: 2
-        x: 216
+        x: 218
         y: 48
-        width: 40
-        height: 24
+        width: 37
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,10 +471,10 @@ TextureImporter:
       name: WolfIdle1
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 40
-        height: 24
+        width: 30
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,10 +492,10 @@ TextureImporter:
       name: WolfIdle2
       rect:
         serializedVersion: 2
-        x: 40
+        x: 41
         y: 0
-        width: 40
-        height: 24
+        width: 30
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -501,10 +513,10 @@ TextureImporter:
       name: WolfIdle3
       rect:
         serializedVersion: 2
-        x: 80
+        x: 81
         y: 0
-        width: 40
-        height: 24
+        width: 30
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -522,10 +534,10 @@ TextureImporter:
       name: WolfIdle4
       rect:
         serializedVersion: 2
-        x: 120
+        x: 121
         y: 0
-        width: 40
-        height: 24
+        width: 30
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -543,10 +555,10 @@ TextureImporter:
       name: WolfDeath1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 18
         y: 72
-        width: 40
-        height: 24
+        width: 30
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -564,10 +576,10 @@ TextureImporter:
       name: WolfDeath2
       rect:
         serializedVersion: 2
-        x: 56
+        x: 59
         y: 72
-        width: 40
-        height: 24
+        width: 30
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -585,10 +597,10 @@ TextureImporter:
       name: WolfDeath3
       rect:
         serializedVersion: 2
-        x: 96
+        x: 99
         y: 72
-        width: 40
-        height: 24
+        width: 32
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -606,10 +618,10 @@ TextureImporter:
       name: WolfDeath4
       rect:
         serializedVersion: 2
-        x: 136
+        x: 139
         y: 72
-        width: 40
-        height: 24
+        width: 32
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -627,10 +639,10 @@ TextureImporter:
       name: WolfDeath5
       rect:
         serializedVersion: 2
-        x: 176
+        x: 181
         y: 72
-        width: 40
-        height: 24
+        width: 30
+        height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
